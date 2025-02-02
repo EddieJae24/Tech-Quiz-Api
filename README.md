@@ -43,7 +43,8 @@ npm install
 
 
 ## Usage
-
+npm run test or npm test
+OR
 npm run cypress:open on the command line to start the server on local PORT and concurently start cypress.
 
 ## Credits
@@ -62,7 +63,7 @@ https://opensource.org/licenses/MIT
 
 ## Tests
 
-For a walkthrough visit .
+For a walkthrough visit https://app.screencastify.com/v3/watch/UnDUmEzxsGBnqau2lLQG.
 
 ## Questions
 

@@ -5,7 +5,7 @@ beforeEach(() => {
 })
 });
 
-describe('Python Quiz App', () => {
+describe('Tech Quiz App', () => {
   beforeEach(() => {
     cy.intercept('GET', '/api/questions/random', {
       statusCode: 200,
@@ -43,7 +43,7 @@ describe('Python Quiz App', () => {
     cy.visit('/');
   });
 
-  it('Starts the Python quiz and displays the first question', () => {
+  it('Starts the quiz and displays the first question', () => {
     cy.contains('Start Quiz').click();
     cy.wait('@getQuestions');
     cy.contains('What is the output of print(2 ** 3)?').should('be.visible');
@@ -76,7 +76,7 @@ describe('Python Quiz App', () => {
     cy.contains('Your score:').should('be.visible');
   });
 
-  it('Allows retaking the Python quiz', () => {
+  it('Allows retaking the quiz', () => {
     cy.contains('Start Quiz').click();
     cy.wait('@getQuestions');
 

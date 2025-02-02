@@ -1,6 +1,4 @@
 
-
-
 describe('Testing the quiz app', () => {
 beforeEach(() => {
     cy.visit('/')

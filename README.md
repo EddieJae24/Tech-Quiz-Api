@@ -31,11 +31,11 @@ To set up this project locally, follow these steps:
 
 ### Clone the repository:
 bash
-git clone https://github.com/EddieJae24/social-network-api.git
+git clone https://github.com/EddieJae24/Tech-Quiz-Api.git
 
 ### Navigate into the project directory:
 bash
-cd Social-Network-API
+cd Tech-Quiz-Api
 
 ### Install the necessary dependencies:
 bash
@@ -45,8 +45,6 @@ npm install
 ## Usage
 
 npm run cypress:open on the command line to start the server on local PORT and concurently start cypress.
-
-
 
 ## Credits
 
